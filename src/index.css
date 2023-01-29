@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;600&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: 'Mukta', sans-serif;
+}
+:root{
+  background-color: #243B55;
+}
+
+.navButton:hover{
+  color: aqua;
+}
+.buyCoffee:hover{
+  background-color: aqua;
+}
+.listItem::-webkit-scrollbar,.tableData::-webkit-scrollbar{
+  display: none;
+}
+.listItem{
+  border-radius: 10px !important;
+}
+.tableRow:nth-child(2n){
+  background-color: #00204A;
+}
+.tableRow:nth-child(2n+1){
+  background-color: #083358;
+}
+.columnDataHome:first-child{
+  font-weight: bold;
+  font-size: 1rem;
+}
+.columnDataHome:nth-child(2):hover{
+  color: #F8A332;
+  cursor: pointer;
+}
+.cases0,.cases3{
+  color: #4EAB83;
+}
+.cases2,.cases5{
+  color: #CA3432;
+}
+.cases1{
+  color: #FAFA3A;
+}
+.cases4{
+  color: #F9A632;
+}
+
+.columnDataHome:nth-child(3),.columnDataHome:nth-child(4),.columnDataHome:nth-child(5){
+  color: #1FAB89;
+}
+.columnDataHome:nth-child(6){
+  color: #F8A332;
+}
+.columnDataHome:nth-child(1){
+  color: #F6C90E;
+}
+.columnDataHome:nth-child(7){
+  color: #F6C90E;
+}
+.columnDataHome:nth-child(8),.columnDataHome:nth-child(10),.columnDataHome:nth-child(9){
+  color: #F63858;
+}
+.columnDataHome:nth-child(12),.columnDataHome:nth-child(11),.columnDataHome:nth-child(13){
+  color: #18D3CF;
+}
+.columnDataHome:nth-child(15),.columnDataHome:nth-child(14){
+  color: #1FAB89;
+}
